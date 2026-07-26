@@ -1,7 +1,30 @@
 aid: eql-games
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eql-games.png
 name: EQL Games
-description: EQL Games is a company surfaced as a portfolio company of bullpen-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EQL Games is a Louisville, Kentucky based lottery-industry technology company
+  that operates as an original game studio, third-party content aggregator, and
+  boutique licensor for the global iLottery market. Its iLottery Marketplace
+  aggregates a catalog of 300+ games from 24 partner studios behind a single
+  integration point for lottery operators, while its EQL Labs innovation
+  division builds original instant-win and eInstant titles that fold in licensed
+  intellectual property and live sports. The company also represents brands
+  across lottery verticals (instant scratch and eInstant) and reports serving 8
+  lottery clients. EQL Games was surfaced through Bullpen Capital's portfolio and
+  added to the API Evangelist network; it publishes a marketing and corporate web
+  presence but no public developer portal, API documentation, or machine-readable
+  API specification at this time.
 url: https://raw.githubusercontent.com/api-evangelist/eql-games/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Lottery
+- iLottery
+- iGaming
+- Games
+- Game Studio
+- Content Aggregator
+- Licensing
+- Entertainment
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +52,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/eql-games-domain-security.yml
 - type: Website
   url: https://www.eqlgames.com
+- type: About
+  url: https://www.eqlgames.com/about-us
+- type: Technology
+  url: https://www.eqlgames.com/technology
+- type: LinkedIn
+  url: https://www.linkedin.com/company/eqlgames
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

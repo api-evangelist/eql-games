@@ -1,0 +1,16 @@
+generated: '2026-07-19'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.eqlgames.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Mar 10 16:27:01 2027 GMT
+  hsts: false
+domains:
+- domain: eqlgames.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
